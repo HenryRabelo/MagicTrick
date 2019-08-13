@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Magic!</title>
+        <link rel="icon" href="assets/imgs/favicon.ico">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/cards.css">
+
+        <script type="text/javascript" src="assets/js/deck.js"></script>
+        <script type="text/javascript" src="assets/js/trick.js"></script>
+        <script type="text/javascript" src="assets/js/instructions.js"></script>
+
+    </head>
+
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">
+                        Start! </a></li>
+                <li><a href="javascript:void(0)" onclick="language();">
+                        Instructions</a></li>
+            </ul>
+        </nav>
+
+        <section>
+
+            <div class="deck">
+                
+                <h1>Mind Reading</h1>
+
+                <div id="deck"></div>
+                
+                <div class="buttons">
+                <a href="javascript:void(0)" onclick="choose('top');" class="btn">Top</a>
+                <a href="javascript:void(0)" onclick="choose('mid');" class="btn">Middle</a>
+                <a href="javascript:void(0)" onclick="choose('bot');" class="btn">Bottom</a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <footer>
+            <p>
+                ~Henrique Messias Rabelo
+            </p>
+        </footer>
+
+    </body>
+</html>
