@@ -87,10 +87,10 @@ function stackPiles(pileChosen, pileTop, pileBottom, cardNumber) {
 }
 
 function renderDeck(deck) {
-    document.getElementById('deck').innerHTML = '';
+    document.getElementById('deckOCards').innerHTML = '';
 
     for (var i = 0; i < deck.length; i++) {
-        var card = document.createElement("div");
+        var playingCard = document.createElement("div");
         var icon = '';
         switch (deck[i].Suit) {
             case ('hearts'):
@@ -107,8 +107,8 @@ function renderDeck(deck) {
                 break;
         }
 
-        card.innerHTML = deck[i].Value + '' + icon;
-        card.className = 'card';
-        document.getElementById("deck").appendChild(card);
+        playingCard.innerHTML = deck[i].Value + '' + icon;
+        playingCard.className = 'playingCard';
+        document.getElementById("deckOCards").appendChild(playingCard);
     }
 }
