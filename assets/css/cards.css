@@ -1,20 +1,12 @@
 #velvetTable {
     background: darkgreen url('../img/background/green-velvet.jpg');
     border: solid 7px black;
-    border-radius: 3px;
 }
 
 .playingCard {
     width: 12%;
     height: 150px;
-    padding: 10px;
-    border: solid 1px black;
-    border-radius: 5px;
-    background-color: white;
     display: inline-block;
 
     font-size: 14pt;
-    text-align: center;
-    color: black;
-    margin: 3px;
 }
