@@ -108,7 +108,7 @@ function renderDeck(deck) {
         }
 
         playingCard.innerHTML = deck[i].Value + '' + icon;
-        playingCard.className = 'playingCard';
+        playingCard.className = 'playingCard card text-dark pt-2 m-1';
         document.getElementById("deckOCards").appendChild(playingCard);
     }
 }
